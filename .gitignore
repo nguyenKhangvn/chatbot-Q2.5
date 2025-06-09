@@ -1,0 +1,24 @@
+# Ignore Python virtual environment
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore environment variables and secrets
+.env
+
+# Ignore IDE and editor settings
+.vscode/
+.idea/
+
+/node_modules/
+*.swp
+
+# Ignore node_modules for frontend
+chatbot-fe/node_modules/
+
+# Ignore build outputs
+dist/
+build/
